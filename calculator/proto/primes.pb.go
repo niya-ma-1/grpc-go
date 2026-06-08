@@ -118,7 +118,7 @@ const file_primes_proto_rawDesc = "" +
 	"\fPrimeRequest\x12\x16\n" +
 	"\x06number\x18\x01 \x01(\x03R\x06number\"'\n" +
 	"\rPrimeResponse\x12\x16\n" +
-	"\x06result\x18\x01 \x01(\x03R\x06resultB5Z3github.com/niya-ma-1/grpc-practice/calculator/protob\x06proto3"
+	"\x06result\x18\x01 \x01(\x03R\x06resultB/Z-github.com/niya-ma-1/grpc-go/calculator/protob\x06proto3"
 
 var (
 	file_primes_proto_rawDescOnce sync.Once

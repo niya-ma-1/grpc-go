@@ -128,7 +128,7 @@ const file_sum_proto_rawDesc = "" +
 	"\ffirst_number\x18\x01 \x01(\x05R\vfirstNumber\x12#\n" +
 	"\rsecond_number\x18\x02 \x01(\x05R\fsecondNumber\"%\n" +
 	"\vSumResponse\x12\x16\n" +
-	"\x06result\x18\x01 \x01(\x05R\x06resultB5Z3github.com/niya-ma-1/grpc-practice/calculator/protob\x06proto3"
+	"\x06result\x18\x01 \x01(\x05R\x06resultB/Z-github.com/niya-ma-1/grpc-go/calculator/protob\x06proto3"
 
 var (
 	file_sum_proto_rawDescOnce sync.Once
