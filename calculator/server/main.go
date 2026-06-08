@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/niya-ma-1/grpc-practice/calculator/proto"
+	pb "github.com/niya-ma-1/grpc-go/calculator/proto"
 	"google.golang.org/grpc"
 )
 

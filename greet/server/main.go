@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/niya-ma-1/grpc-practice/greet/proto"
+	pb "github.com/niya-ma-1/grpc-go/greet/proto"
 	"google.golang.org/grpc"
 )
 
@@ -20,7 +20,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
-	
+
 	log.Printf("Listening on %s\n", addr)
 
 	s := grpc.NewServer()

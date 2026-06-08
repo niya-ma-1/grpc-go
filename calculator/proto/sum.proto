@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package calculator;
 
-option go_package = "github.com/niya-ma-1/grpc-practice/calculator/proto";
+option go_package = "github.com/niya-ma-1/grpc-go/calculator/proto";
 
 message SumRequest {
     int32 first_number = 1;

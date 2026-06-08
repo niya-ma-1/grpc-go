@@ -1,4 +1,4 @@
-module github.com/niya-ma-1/grpc-practice
+module github.com/niya-ma-1/grpc-go
 
 go 1.26.3
 

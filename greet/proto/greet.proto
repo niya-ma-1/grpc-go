@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet;
 
-option go_package = "github.com/niya-ma-1/grpc-practice/greet/proto";
+option go_package = "github.com/niya-ma-1/grpc-go/greet/proto";
 
 message GreetRequest {
   string first_name = 1;
@@ -15,4 +15,5 @@ message GreetResponse {
 service GreetService {
   rpc Greet (GreetRequest) returns (GreetResponse);
   rpc GreetManyTimes (GreetRequest) returns (stream GreetResponse);
+  rpc LongGreet (stream GreetRequest) returns (GreetResponse);
 }

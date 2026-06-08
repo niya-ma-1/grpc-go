@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/niya-ma-1/grpc-practice/calculator/proto"
+	pb "github.com/niya-ma-1/grpc-go/calculator/proto"
 )
 
 func doSum(c pb.CalculatorServiceClient) {

@@ -2,6 +2,11 @@ BIN_DIR = bin
 PROTO_DIR = proto
 SERVER_DIR = server
 CLIENT_DIR = client
+GO_BIN = $(shell go env GOBIN)
+ifeq ($(GO_BIN),)
+	GO_BIN = $(shell go env GOPATH)/bin
+endif
+export PATH := $(GO_BIN):$(PATH)
 
 ifeq ($(OS), Windows_NT)
 	SHELL := powershell.exe

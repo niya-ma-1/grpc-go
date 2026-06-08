@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	pb "github.com/niya-ma-1/grpc-practice/greet/proto"
+	pb "github.com/niya-ma-1/grpc-go/greet/proto"
 )
 
 var addr string = "localhost:50051"
@@ -22,5 +22,6 @@ func main() {
 	c := pb.NewGreetServiceClient(conn)
 
 	// doGreet(c)
-	doGreetManyTimes(c)
+	// doGreetManyTimes(c)
+	doLongGreet(c)
 }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/niya-ma-1/grpc-practice/greet/proto"
+	pb "github.com/niya-ma-1/grpc-go/greet/proto"
 )
 
 func (s *Server) GreetManyTimes(in *pb.GreetRequest, stream pb.GreetService_GreetManyTimesServer) error {
