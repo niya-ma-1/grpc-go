@@ -33,5 +33,6 @@ go.work
 
 ## Other
 bin
+/server
 .vscode
 TODO.md
